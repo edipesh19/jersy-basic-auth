@@ -8,13 +8,14 @@
 
 3. Create a database called test
 4. Create a table named user with the following schema.
-#-----------------------------------------------------------------
-#| Field  | Type         | Null | Key | Default | Extra          |
-#-----------------------------------------------------------------
-#| id     | int(11)      | NO   | PRI | NULL    | auto_increment |
-#| name   | varchar(100) | NO   |     |         |                |
-#| salary | mediumtext   | NO   |     |         |                |
-#-----------------------------------------------------------------
+
+-----------------------------------------------------------------
+| Field  | Type         | Null | Key | Default | Extra          |
+-----------------------------------------------------------------
+| id     | int(11)      | NO   | PRI | NULL    | auto_increment |
+| name   | varchar(100) | NO   |     |         |                |
+| salary | mediumtext   | NO   |     |         |                |
+-----------------------------------------------------------------
 
 # Run the app
 Clone the repository or download the zip
