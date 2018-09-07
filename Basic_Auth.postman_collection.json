@@ -1,0 +1,75 @@
+{
+	"id": "51c15812-3c2e-4a9b-2a57-43a442ef7156",
+	"name": "Basic_Auth",
+	"description": "",
+	"order": [
+		"06a82b65-1ce7-9da6-0361-6cab1e04d0b9",
+		"11af9541-f4d9-2d57-c0f1-f2006c615ebc"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1536299781193,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "06a82b65-1ce7-9da6-0361-6cab1e04d0b9",
+			"url": "http://localhost:8080/simple-restapi/restapi/myresource",
+			"queryParams": [],
+			"method": "GET",
+			"headers": "Authorization: Basic YWRtaW46cGFzc3dvcmQ=\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"name": "Authorization",
+					"value": "Basic YWRtaW46cGFzc3dvcmQ=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "basicAuth",
+			"helperAttributes": "{\"username\":\"admin\",\"password\":\"password\",\"saveToRequest\":false,\"showPassword\":false}",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/simple-restapi/restapi/myresource",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "51c15812-3c2e-4a9b-2a57-43a442ef7156"
+		},
+		{
+			"id": "11af9541-f4d9-2d57-c0f1-f2006c615ebc",
+			"url": "http://localhost:8080/simple-restapi/restapi/secured/user",
+			"queryParams": [],
+			"method": "GET",
+			"headers": "Authorization: Basic YWRtaW46cGFzc3dvcmQ=\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"type": "text",
+					"name": "Authorization",
+					"value": "Basic YWRtaW46cGFzc3dvcmQ=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "basicAuth",
+			"helperAttributes": "{\"username\":\"admin\",\"password\":\"password\",\"saveToRequest\":false,\"showPassword\":false}",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://localhost:8080/simple-restapi/restapi/secured/user",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "51c15812-3c2e-4a9b-2a57-43a442ef7156"
+		}
+	]
+}
