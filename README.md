@@ -1,4 +1,4 @@
-# jersy-basic-auth
+# jersey-basic-auth
 
 # Environment Setup
 1. Install maven
